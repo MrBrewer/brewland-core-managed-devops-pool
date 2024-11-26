@@ -3,8 +3,8 @@ param adoOrg string
 param devCenterResourceId string
 param imageName string = 'windows-2022'
 param poolSize int = 1
-param location string = 'eastus'
-param vnetId string
+param location string = 'northeurope'
+// param vnetId string
 param subnetId string
 
 resource managedDevOpsPool 'Microsoft.DevOpsInfrastructure/pools@2024-10-19' = {
