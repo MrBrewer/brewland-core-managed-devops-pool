@@ -39,7 +39,7 @@ resource managedDevOpsPool 'Microsoft.DevOpsInfrastructure/pools@2024-10-19' = {
       }
       kind: 'AzureDevOps'
     }
-    devCenterProjectResourceId: devCenterResourceId
+    devCenterProjectResourceId: devCenterProject.id
     maximumConcurrency: poolSize
     agentProfile: {
       kind: 'Stateless'
