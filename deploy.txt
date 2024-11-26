@@ -1,5 +1,5 @@
 New-AzResourceGroupDeployment `
-  -Name ExampleDeployment `
-  -ResourceGroupName ExampleResourceGroup `
-  -TemplateFile C:\MyTemplates\storage.bicep `
-  -TemplateParameterFile C:\MyTemplates\storage.bicepparam
+  -Name managed-devops-pool-deployment `
+  -ResourceGroupName rg-managed-devops-pool `
+  -TemplateFile main.bicep `
+  -TemplateParameterFile Cmain.bicepparam

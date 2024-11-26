@@ -1,10 +1,6 @@
 using 'main.bicep'
-devCenterName": {
-      "value": "my-dev-center"
-    },
-    "devCenterProjectName": {
-      "value": "my-dev-center-project"
-    },
+param devCenterName = 'brewland-dev-center'
+param devCenterProjectName = 'brewlan-dev-center-project'
 param poolName = 'brewland-managed-pool'
 param adoOrg = 'https://dev.azure.com/your-organization'
 param devCenterResourceId = '/subscriptions/subscription_id/resourceGroups/your-resource-group/providers/Microsoft.DevCenter/projects/your-dev-center-project'
