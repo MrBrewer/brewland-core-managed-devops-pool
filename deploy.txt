@@ -1,0 +1,5 @@
+New-AzResourceGroupDeployment `
+  -Name ExampleDeployment `
+  -ResourceGroupName ExampleResourceGroup `
+  -TemplateFile C:\MyTemplates\storage.bicep `
+  -TemplateParameterFile C:\MyTemplates\storage.bicepparam
